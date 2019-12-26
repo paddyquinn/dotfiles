@@ -1,0 +1,8 @@
+[user]
+    email = padraic@bitgo.com
+    name = Padraic Quinn
+    signingKey = 1409564FB2D683BBCCDE266071ED2A03895A020A
+[commit]
+    gpgSign = true
+[gpg]
+    program = gpg
