@@ -6,3 +6,10 @@ alias shuttle="sshuttle --dns --pidfile=/tmp/sshuttle.pid -r padraic@10.151.1.21
 alias rmkeygrips='rm -fv ~/.gnupg/private-keys-v1.d/*.key && gpg --card-status'
 alias ep='electrum --oneserver --server localhost:50002:s'
 alias eps='electrum-personal-server ~/.electrum/config.ini'
+alias python='python3'
+alias devaccess="mtls -s bitgo-dev certificate create -o ~/.mtls/dev.crt"
+alias testaccess="mtls -s bitgo-test certificate create -o ~/.mtls/test.crt"
+alias intaccess="mtls -s bitgo-int certificate create -o ~/.mtls/int.crt"
+alias prodaccess="mtls -s bitgo-prod certificate create -o ~/.mtls/prod.crt"
+alias k="kubectl"
+alias jsbuild='rm -rf dist node_modules; npm install; npm run build'
