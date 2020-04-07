@@ -13,3 +13,4 @@ alias intaccess="mtls -s bitgo-int certificate create -o ~/.mtls/int.crt"
 alias prodaccess="mtls -s bitgo-prod certificate create -o ~/.mtls/prod.crt"
 alias k="kubectl"
 alias jsbuild='rm -rf dist node_modules; npm install; npm run build'
+alias specter='python3 -m cryptoadvance.specter serve'
