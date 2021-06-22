@@ -36,7 +36,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 "Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
-Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --all' }
+Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --clangd-completer --cs-completer --go-completer --rust-completer --java-completer --ts-completer' }
+Plug 'tpope/vim-abolish'
 call plug#end()
 
 " enable rust formatting on save
